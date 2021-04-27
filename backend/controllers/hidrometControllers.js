@@ -15,12 +15,13 @@ connetcion.connect( err =>{
 exports.pronostico = async ( req, res, next ) => { 
   console.log(' Pronostico .... ')
 
-  const { ValRegion } = req.params;
+  const { valRegion } = req.params;
+  valRegion.replace( '%20', ' ');
   let query;
-  if ( ValRegion != 'Panamá Oeste' ) {
-    query = `SELECT region, fecha_pronostico, temp_maxima, temp_minima, sensacion_termica, humedad_relativa, tiempo_manana, tiempo_tarde, tiempo_noche FROM hidromet.pronosticodiario WHERE provincia = '${ ValRegion }'`;
+  if ( valRegion != 'Panamá Oeste' ) {
+    query = `SELECT region, fecha_pronostico, temp_maxima, temp_minima, sensacion_termica, humedad_relativa, tiempo_manana, tiempo_tarde, tiempo_noche FROM hidromet.pronosticodiario WHERE provincia = '${ valRegion }'`;
   } else {
-    query = `SELECT region, fecha_pronostico, temp_maxima, temp_minima, sensacion_termica, humedad_relativa, tiempo_manana, tiempo_tarde, tiempo_noche FROM hidromet.pronosticodiario WHERE region = '${ ValRegion };'`;
+    query = `SELECT region, fecha_pronostico, temp_maxima, temp_minima, sensacion_termica, humedad_relativa, tiempo_manana, tiempo_tarde, tiempo_noche FROM hidromet.pronosticodiario WHERE region = '${ valRegion };'`;
   }
   connetcion.query( query, (error, result)=> {
     if ( error ) res.status( 500 ).send({ error }) ;

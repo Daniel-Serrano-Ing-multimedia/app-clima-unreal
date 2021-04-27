@@ -1,4 +1,4 @@
-import axiosUnreal from '../config/axiosUnreal';
+import connection from '../config';
 
 const objectPathMArtillo = "/Game/Hunter_Game_Levels/DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
 const objectPathMArtilloInGame = "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
@@ -6,7 +6,7 @@ const objectPathMArtilloInGame = "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.
 const enviarPeticion = async (tipoPeticion, data) =>{
   try {
     // enviar peticion http
-    const response = await axiosUnreal.put( tipoPeticion, data );
+    const response = await connection.unreal.put( tipoPeticion, data );
     console.log ( 'reponse : ', response );
   } catch (error) {
     console.log( 'Error : ', error );
