@@ -13,6 +13,7 @@ import './App.css';
 
 function App() {
   const [ seccionActual, setSeccionActual ] = useState( 'tests' );
+  const [ data, setData ] = useState( [] );
   useEffect(() => {
   
   }, [ seccionActual ]);
@@ -27,6 +28,9 @@ function App() {
         </p>
       <Seccion
         seccionActual = { seccionActual }
+        setSeccionActual = { setSeccionActual }
+        setData = { setData }
+        data = { data  }
       />
     </div>
   );

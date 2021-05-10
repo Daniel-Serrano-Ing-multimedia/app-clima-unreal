@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // ui
 import Grid, { GridSpacing } from '@material-ui/core/Grid'; 
 // components 
 import ButtonReact from '../ButtonReact';
-const Embalses = () => {
+
+
+const Embalses = ({ embalses }) => {
+ 
+  console.log( 'Embalses  ', embalses );
   const enviarEmbalase = () => {
     console.log( 'Enviar Embalses' );
   }
@@ -16,62 +20,33 @@ const Embalses = () => {
       <Grid item xs = { 8 } >
         <h1>Embalses</h1>
       </Grid>
-      <Grid container justify = 'center' xs = { 12 } >
-        
-        <Grid item>
-          <h1> FORTUNA</h1>
-          <ButtonReact
-              unrealFunc = { enviarEmbalase }
-              textButton ='Fortuna'
-          />
-        </Grid>
+        <Grid container justify = 'center' xs = { 12 } >
+          { embalses.map( (embalse, id) => 
+            <Embalse
+              key = { embalse.idEmbalse }
+              embalse = { embalse }
+            />
+          ) }
 
-        <Grid item>
-        <h1>BAYANO </h1>
         </Grid>
-
-        <Grid item>
-          <h1> CHANGUINOLA I</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA MONTE LIRIO</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA BAITÚN</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA LA POTRA</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA BUGABA I</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA BARRIGÓN</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA MENDRE</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA LOS PLANETAS I</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA LAS CRUCES</h1>
-        </Grid>
-
-        <Grid item>
-          <h1> PRESA BARRO BLANCO</h1>
-        </Grid>
-      </Grid>
     </Grid>
   );
 }
  
+
+const Embalse = ({ embalse }) => {
+  const { descripEmbalse } = embalse ;
+  const imprimir = () => {
+    console.log ( 'button' )
+  }
+  return(
+    <Grid item xs = {2} md ={ 3} >
+       <ButtonReact
+              unrealFunc = { imprimir }
+              textButton = { `Enviar Embalse ${ descripEmbalse }` }
+          />
+    </Grid>
+  );
+}
+
 export default Embalses;

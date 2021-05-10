@@ -54,20 +54,8 @@ const defaultText = async text =>{
   }
 }
 
-const obtenerEmbalsesUnreal = async () => {
-  console.log( 'embalses ...' )
-  try {
-    //const result = await connection.hidromet.get(`/embalses`);
-    const result = await connection.hidromet.get( `/pronostico/Bocas del Toro`  );
-    console.log("result", result.data);
-    //return result.data;
-  } catch (error) {
-    console.log("Error", error);
-  }
-}
 
 export {
   pronostico,
   defaultText,
-  obtenerEmbalsesUnreal
 }

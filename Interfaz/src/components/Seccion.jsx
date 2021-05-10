@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 // ui 
 import Grid, { GridSpacing } from '@material-ui/core/Grid'; 
 import Paper from '@material-ui/core/Paper';
@@ -9,17 +9,21 @@ import Embalses from './secciones/Embalses';
 import TablaMareas from './secciones/TablaMareas';
 import Condiciones from './secciones/Condiciones';
 
-
-const Seccion = ({ seccionActual }) => {
+const Seccion = ({ seccionActual, setSeccionActual, setData, data }) => {
 
   {
     switch ( seccionActual ) {
       case 'tests':
-        return ( <Tests/> );
+        return ( <Tests 
+          setSeccionActual = { setSeccionActual }
+          setData = { setData }
+        /> );
       case  'pronostico': 
         return <Pronostico/> ;
       case 'embalses':
-        return ( <Embalses/> );
+        return ( <Embalses
+          embalses = { data }
+        /> );
       case  'mareas': 
         return <TablaMareas/> ;
       case  'condiciones': 
