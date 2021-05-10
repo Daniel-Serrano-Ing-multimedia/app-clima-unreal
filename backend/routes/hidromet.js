@@ -4,5 +4,6 @@ const api = express.Router();
 const hidromet = require('../controllers/hidrometControllers');
 
 api.get('/pronostico/:valRegion', hidromet.pronostico);
+api.get('/embalses', hidromet.embalses);
 
 module.exports = api;

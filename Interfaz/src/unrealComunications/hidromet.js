@@ -2,8 +2,8 @@ import connection from '../config';
 // unreal
 import { Mensaje} from './martillo';
 
-const objectPathMArtillo = "/Game/Hunter_Game_Levels/DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
-const objectPathMArtilloInGame = "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
+// const objectPathMArtillo = "/Game/Hunter_Game_Levels/DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
+// const objectPathMArtilloInGame = "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
 
 
 const enviarPeticion = async (tipoPeticion, data) =>{
@@ -54,7 +54,20 @@ const defaultText = async text =>{
   }
 }
 
+const obtenerEmbalsesUnreal = async () => {
+  console.log( 'embalses ...' )
+  try {
+    //const result = await connection.hidromet.get(`/embalses`);
+    const result = await connection.hidromet.get( `/pronostico/Bocas del Toro`  );
+    console.log("result", result.data);
+    //return result.data;
+  } catch (error) {
+    console.log("Error", error);
+  }
+}
+
 export {
   pronostico,
-  defaultText
+  defaultText,
+  obtenerEmbalsesUnreal
 }

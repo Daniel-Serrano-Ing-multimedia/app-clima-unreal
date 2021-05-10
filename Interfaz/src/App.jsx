@@ -1,55 +1,33 @@
 //import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+// ui 
+import Grid, { GridSpacing } from '@material-ui/core/Grid'; 
+import Paper from '@material-ui/core/Paper';
+// unreal
 import unreal from './assets/img/unreal.svg'
 // components 
-import ButtonReact from './components/ButtonReact';
-// Funciones para Unreal
-import  { tomarMartillo, visible } from './unrealComunications/martillo';
-import { pronostico, defaultText } from './unrealComunications/hidromet';
-//
+import Header from './components/layaout/Header';
+import Seccion from './components/Seccion';
 // styles
 import './App.css';
 
 function App() {
-  function pronisticoBocas ( ) {
-    console.log('Boton')
-    pronostico('Bocas del Toro') ;
-  }
-  function pronisticoPanama ( ) {
-    console.log('Panamá')
-    pronostico('Panamá') ;
-  }
-  function textoGenerico ( ) {
-    console.log('Texto Prueba')
-    defaultText('Texto Prueba') ;
-  }
+  const [ seccionActual, setSeccionActual ] = useState( 'tests' );
+  useEffect(() => {
+  
+  }, [ seccionActual ]);
   return (
     <div className="App">
-      <header className="App-header">
+      <Header
+        setSeccion = { setSeccionActual }
+      />
         <img src={unreal} className="App-logo" alt="logo" />
         <p>
          Pruebas Remote Control Unreal Engine 4
         </p>
-        <ButtonReact 
-          unrealFunc = { () => tomarMartillo }
-          textButton = { 'Tomar Martillo' }
-        />
-        <ButtonReact 
-          unrealFunc = { () => visible }
-          textButton = { 'Hacer Visible' }
-        />
-        <ButtonReact 
-          unrealFunc = { () => pronisticoBocas}
-          textButton = { 'pronostico Bocas del Toto' }
-        />
-        <ButtonReact 
-          unrealFunc = { () => pronisticoPanama}
-          textButton = { 'pronostico Panama' }
-        />
-        <ButtonReact 
-          unrealFunc = { () => textoGenerico }
-          textButton = { 'Default Text' }
-        />
-      </header>
+      <Seccion
+        seccionActual = { seccionActual }
+      />
     </div>
   );
 }

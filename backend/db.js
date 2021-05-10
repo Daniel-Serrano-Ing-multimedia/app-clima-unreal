@@ -2,8 +2,9 @@ const mysql = require('mysql');
 
 const connetcion = mysql.createConnection({
   host      : 'localhost',
+  port      : '3600',
   database  : 'hidromet',
-  user      : 'root',
+  user      : 'root'
 });
 
 connetcion.connect( err =>{
