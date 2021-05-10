@@ -5,7 +5,6 @@ import connection from '../config';
 const obtenerEmbalses = async () => {
   try {
     const result = await connection.hidromet.get(`/embalses`);
-
     return result.data.pronostico;
   } catch (error) {
     console.log("Error", error);

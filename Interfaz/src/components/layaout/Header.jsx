@@ -3,10 +3,19 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined } from '@material-ui/icons';
+// funciones hidomet
+import { obtenerEmbalses } from '../../surces/hidromet';
 
-const Header = ({ setSeccion }) => {
+const Header = ({ setSeccion, setData }) => {
+  
+  async function embalsesFunc() {
+    setData( await obtenerEmbalses()  );
+    enviasSeccion( 'embalses' )
+  }
+  
   const enviasSeccion= seccion => {
     setSeccion( seccion );
+
   } 
   return (
     <BottomNavigation
