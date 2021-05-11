@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC Mundo - Noticias]]></title>
+        <description><![CDATA[BBC Mundo - Noticias]]></description>
+        <link>http://www.bbcmundo.com</link>
+        <image>
+            <url>http://www.bbc.co.uk/mundo/images/gel/rss_logo.gif</url>
+            <title>BBC Mundo - Noticias</title>
+            <link>http://www.bbcmundo.com</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 11 May 2021 15:27:40 GMT</lastBuildDate>
+        <copyright><![CDATA[Derechos Reservados de la British Broadcasting Corporation (Corporación Británica de Radiodifusión) ]]></copyright>
+        <language><![CDATA[es]]></language>
+        <managingEditor><![CDATA[escribanos@bbc.co.uk]]></managingEditor>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Coronavirus: cómo la tecnología ARNm puede abrir las puertas a una vacuna contra el cáncer]]></title>
+            <description><![CDATA[El principio fundamental de la tecnología de ARN mensajero es diseñar y administrar un antígeno a las células con el fin de inducir una respuesta inmunitaria.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56915397</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56915397</guid>
+            <pubDate>Tue, 11 May 2021 15:09:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Conflicto israelí-palestino: 3 claves para entender la escalada de violencia en Jerusalén y Gaza]]></title>
+            <description><![CDATA[La violencia entre israelíes y palestinos se intensificó en los últimos días, con ataques aéreos en Gaza y los peores disturbios en Jerusalén desde 2017. El estatus de la ciudad y el posible desalojo de familias palestinas explican gran parte de la tensión actual.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57060208</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57060208</guid>
+            <pubDate>Tue, 11 May 2021 14:08:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Conflicto israelí-palestino: bombardeo de Israel en Gaza deja al menos 26 muertos, entre ellos varios niños]]></title>
+            <description><![CDATA[Una larga jornada de violencia culminó con un bombardeo de las fuerzas militares israelíes sobre la Franja de Gaza, en respuesta al lanzamiento de cohetes desde ese territorio palestino hacia Jerusalén.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57065395</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57065395</guid>
+            <pubDate>Tue, 11 May 2021 14:21:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: los 3 escenarios a los que se enfrenta el país tras la ola de movilizaciones y violencia]]></title>
+            <description><![CDATA[Colombia está en una situación que no conoce. Y eso impide saber para dónde va. Sin embargo, hablamos con varios analistas para pensar cuál puede ser el futuro del país después del estallido social.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57066928</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57066928</guid>
+            <pubDate>Tue, 11 May 2021 11:27:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: quiénes son los "hombres de blanco" y otras 3 interrogantes que dejan los enfrentamientos entre grupos armados e indígenas en Cali]]></title>
+            <description><![CDATA[La ciudad epicentro de las protestas en Colombia vivió un domingo de violencia. Lo sucedido el fin de semana deja cuatro grandes interrogantes respecto al conflicto en ese país.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57066619</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57066619</guid>
+            <pubDate>Tue, 11 May 2021 00:12:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mucormicosis, el raro y peligroso "hongo negro" que afecta a pacientes de covid-19 en India]]></title>
+            <description><![CDATA[Aunque un funcionario del gobierno señaló que "no hay un brote grande", un número creciente de casos de mucormicosis están siendo reportados en todo el país, con consecuencias devastadoras para muchos pacientes.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-57058356</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-57058356</guid>
+            <pubDate>Tue, 11 May 2021 09:40:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los sacerdotes católicos alemanes que desafían al Vaticano bendiciendo las uniones de parejas homosexuales]]></title>
+            <description><![CDATA[La iniciativa "Liebe Gewinnt" ("El amor gana") surgió luego de que la Iglesia católica dijera en marzo que Dios "no puede bendecir el pecado".]]></description>
+            <link>http://www.bbc.com/mundo/noticias-57062972</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-57062972</guid>
+            <pubDate>Tue, 11 May 2021 05:19:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[WhatsApp: qué pasa si no aceptas las nuevas condiciones de uso de la aplicación antes del 15 de mayo]]></title>
+            <description><![CDATA[Los usuarios que no acepten los nuevos términos y condiciones de WhatsApp antes del 15 de mayo solo tendrán un acceso limitado a las funciones de la aplicación.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-57064126</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-57064126</guid>
+            <pubDate>Mon, 10 May 2021 17:31:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tom Cruise devuelve sus 3 Globos de Oro y NBC no emitirá los premios en 2022: la controversia que rodea a los organizadores de los galardones]]></title>
+            <description><![CDATA[El anuncio de la cadena televisiva NBC es producto de una controversia alrededor de la Asociación de la Prensa Extranjera de Hollywood por la falta de diversidad entre sus miembros y el cuestionamiento de algunos gastos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56950565</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56950565</guid>
+            <pubDate>Tue, 11 May 2021 13:47:58 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA["Gordibuena" puede parecer una palabra positiva pero "acaba siendo un término sexista"]]></title>
+            <description><![CDATA[Un estudio analizó cómo el lenguaje refleja la problemática y la discriminación sobre la gordura en el español. Y las mujeres son las que más palabras descriptivas reciben sobre la gordura. ¿Por qué?]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56938198</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56938198</guid>
+            <pubDate>Tue, 11 May 2021 13:47:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: la OMS clasifica la variante india como de "preocupación mundial"]]></title>
+            <description><![CDATA[Los estudios preliminares muestran que la variante que surgió en India se propaga más fácilmente, aunque se requiere más investigación]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57052842</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57052842</guid>
+            <pubDate>Tue, 11 May 2021 10:13:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los cientos de miles de personas en Reino Unido que son propietarias de apartamentos "que no valen nada"]]></title>
+            <description><![CDATA[Más de un millón de propietarios viven en edificios que pasaron de la noche a la mañana a ser considerados riegosos y deberán ser renovados. La gran pregunta es: ¿quién pagará el importe millonario de esas obras?]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-56947019</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-56947019</guid>
+            <pubDate>Mon, 10 May 2021 04:59:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: muere Lucas Villa, el joven manifestante herido por civiles en las movilizaciones]]></title>
+            <description><![CDATA[Un día antes de recibir ocho disparos en las protestas en Colombia, Lucas Villa mandó mensajes a uno de sus compañeros con el que hablamos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57023117</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57023117</guid>
+            <pubDate>Tue, 11 May 2021 15:11:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: el Comité del Paro da por fracasado el primer intento de diálogo con el gobierno]]></title>
+            <description><![CDATA[Los organizadores del paro anuncian nuevas movilizaciones tras una reunión de más de tres horas con el presidente Duque en la que no llegaron a acuerdos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57066303</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57066303</guid>
+            <pubDate>Tue, 11 May 2021 00:10:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Quiénes son los hazara, la minoría chiita objeto de violentos ataques en Afganistán]]></title>
+            <description><![CDATA[El ataque del pasado fin de semana en la capital afgana, que dejó al menos 85 personas muertas, la mayoría niñas, tuvo como objetivo la comunidad hazara, un grupo minoritario musulmán chiita de la región central de Afganistán.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57065251</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57065251</guid>
+            <pubDate>Tue, 11 May 2021 05:18:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mueren 7 alumnos y un profesor tras un tiroteo en una escuela en Rusia]]></title>
+            <description><![CDATA[El incidente ocurrió en un colegio de Kazán, una ciudad de Tartaristán ubicada a más de 800km de Moscú. La policía detuvo a un adolescente de 19 años y abrió una investigación, pero aún se desconoce el motivo del ataque.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57069914</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57069914</guid>
+            <pubDate>Tue, 11 May 2021 11:39:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Los ingeniosos inventos que salvan la vida de niños que necesitan oxígeno desesperadamente]]></title>
+            <description><![CDATA[Científicos de Australia y Uganda idearon una forma barata y novedosa de suministrar oxígeno cuando se corta la electricidad.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56907430</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56907430</guid>
+            <pubDate>Tue, 11 May 2021 09:51:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Qué son los algoritmos y cómo aprenden de nosotros]]></title>
+            <description><![CDATA[Los algoritmos son parte de nuestra vida cotidiana. No solo pueden clasificar, encontrar y procesar grandes cantidades de datos, también pueden dar a las computadoras la habilidad de aprender de esos datos. Pero, ¿qué son exactamente y cómo lo hacen?]]></description>
+            <link>http://www.bbc.com/mundo/noticias-57013905</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-57013905</guid>
+            <pubDate>Sat, 08 May 2021 14:31:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[¡Esto es BBC Minute en español!]]></title>
+            <description><![CDATA[Un minuto con las noticias más importantes y compartidas del mundo.]]></description>
+            <link>http://www.bbc.com/mundo/media-54661776</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/media-54661776</guid>
+            <pubDate>Tue, 11 May 2021 15:02:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El pueblo de Estados Unidos donde los migrantes pasan su primer día de libertad]]></title>
+            <description><![CDATA[Cientos de migrantes centroamericanos que piden asilo en Estados Unidos han iniciado sus primeras horas en ese país en un pequeño y aislado pueblo llamado Yuma, en Arizona.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57013902</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57013902</guid>
+            <pubDate>Thu, 06 May 2021 15:01:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[¿Por qué siguen las protestas en Colombia?]]></title>
+            <description><![CDATA[Las protestas comenzaron en oposición a la propuesta de reforma tributaria del presidente Iván Duque, pero aunque ya fue retirada las manifestaciones continúan y han sumido al país en una espiral de violencia.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56994589</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56994589</guid>
+            <pubDate>Wed, 05 May 2021 14:31:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Accidente en Línea 12 de CDMX: la polémica historia de la línea de metro cuyo colapso provocó decenas de muertos y heridos]]></title>
+            <description><![CDATA[La línea 12 fue inaugurada en 2012, pero prácticamente desde su apertura ha recibido críticas por su alto costo y sus problemas estructurales.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56987750</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56987750</guid>
+            <pubDate>Tue, 04 May 2021 21:42:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: las denuncias de brutalidad policial]]></title>
+            <description><![CDATA[Colombia vive días de protestas. Los manifestantes acusan a las fuerzas de seguridad de usar violencia excesiva. El gobierno dice que la policía enfrenta grupos armados ilegales.]]></description>
+            <link>http://www.bbc.com/mundo/media-57000133</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/media-57000133</guid>
+            <pubDate>Wed, 05 May 2021 17:11:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Crisis en Apure y Arauca: el drama de los desplazados por un inédito conflicto en la frontera entre Colombia y Venezuela]]></title>
+            <description><![CDATA[Mientras en muchas ciudades de Colombia no cesan las protestas contra el gobierno nacional, entre Arauca y Apure, en un costado del país para muchos conocido como "la otra otra frontera" con Venezuela, el conflicto sigue palpitando.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56984077</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56984077</guid>
+            <pubDate>Tue, 04 May 2021 14:24:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La Cámara de Ámbar, la "octava maravilla del mundo" que hicieron desaparecer los nazis y Rusia tardó 23 años en reconstruir]]></title>
+            <description><![CDATA[La habitación con las paredes cubiertas de paneles elaborados con seis toneladas de ámbar y adornadas con láminas de oro, mosaicos y espejos, fue un himno a la belleza y al arte barroco.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-57033529</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-57033529</guid>
+            <pubDate>Mon, 10 May 2021 10:01:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[¿En qué se parecen (y en qué no) las protestas de Colombia a las que ocurrieron en Chile?]]></title>
+            <description><![CDATA[La movilización en Colombia ha dejado ver similitudes con otros estallidos sociales que han ocurrido en el continente, especialmente con el caso chileno. BBC Mundo consultó a expertos para conocer estos paralelos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57024834</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57024834</guid>
+            <pubDate>Mon, 10 May 2021 11:31:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gastón Soublette, filósofo chileno: "Los estallidos sociales muestran que la falta de solidaridad está llegando a su fin"]]></title>
+            <description><![CDATA[El filósofo chileno de 94 años desmenuza las consecuencias del crecimiento ilimitado en el mundo, las injusticias perpetradas por las élites políticas y económicas, y las consecuencias del avance de la tecnología en la mente humana, entre otras cosas.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56847853</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56847853</guid>
+            <pubDate>Sun, 09 May 2021 11:39:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: qué es la minga indígena y qué papel juega en las manifestaciones]]></title>
+            <description><![CDATA[El movimiento de reivindicación de los indígenas se suma nuevamente a la protesta de Paro Nacional que ha sacudido a Colombia y puesto en jaque el gobierno de Iván Duque.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-54625586</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-54625586</guid>
+            <pubDate>Mon, 10 May 2021 14:03:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: cómo la violencia se tomó las calles del país (y por qué Cali fue el epicentro durante días)]]></title>
+            <description><![CDATA[Lo que empezó como una protesta contra un proyecto de ley se ha convertido en un escenario de violencia que tiene paralizado al país. Cali, la tercera ciudad de Colombia, ha sido el epicentro. Te lo contamos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56989232</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56989232</guid>
+            <pubDate>Tue, 04 May 2021 22:07:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cohete chino: la dura crítica de la NASA a Pekín por su "irresponsabilidad" y "falta de transparencia" ante la entrada descontrolada del Long March 5B a la Tierra]]></title>
+            <description><![CDATA[El administrador de la NASA pidió al gobierno chino garantizar la seguridad de futuras incursiones en el espacio.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-57033534</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-57033534</guid>
+            <pubDate>Sun, 09 May 2021 22:04:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Por qué muchos negocios en Estados Unidos no encuentran empleados para cubrir sus vacantes]]></title>
+            <description><![CDATA[La economía estadounidense continúa su recuperación tras el golpe de la pandemia, pero cada vez más empresas se quejan de que no encuentran personal. ¿Qué está pasando?]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-56780592</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-56780592</guid>
+            <pubDate>Fri, 07 May 2021 15:35:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El nazi en mi familia]]></title>
+            <description><![CDATA[Por más de 40 años John Kingston sospechó que su padrastro había sido colaborador nazi durante la II Guerra Mundial, pero nunca pudo demostrarlo. Solo al final de sus días logró conseguir algo de justicia.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56557994</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56557994</guid>
+            <pubDate>Sun, 09 May 2021 05:37:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EE.UU. declara estado de emergencia tras un ciberataque a la mayor red de oleoductos del país]]></title>
+            <description><![CDATA[Un grupo de piratas informáticos desconectó por completo y robó más de 100 GB de información del Oleoducto Colonial, que transporta más de 2,5 millones de barriles por día, el 45% del suministro de diésel, gasolina y combustible que consumen los aviones de la costa este.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57033536</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57033536</guid>
+            <pubDate>Mon, 10 May 2021 18:41:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yuma, la ciudad en el desierto donde empieza la nueva vida de quienes buscan asilo en EE.UU.]]></title>
+            <description><![CDATA[El condado de Yuma es de los que ha visto un mayor incremento en el cruce de migrantes sin documentos. Los que solicitan asilo a menudo son liberados allí. ¿Qué pasa después?]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-56950563</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-56950563</guid>
+            <pubDate>Thu, 06 May 2021 14:07:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia: Cali vuelve a ser el epicentro de las manifestaciones, con un confuso incidente entre indígenas, civiles y la policía]]></title>
+            <description><![CDATA[Colombia ya completa más de una semana de protestas. La ciudad de Cali ha sido el epicentro de las manifestaciones y los hechos violentos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57052623</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57052623</guid>
+            <pubDate>Mon, 10 May 2021 01:56:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Protestas en Colombia | Andrés Parra: "Los colombianos tenemos que depurar ese chip de la muerte que nos introdujeron"]]></title>
+            <description><![CDATA[El reconocido actor colombiano Andrés Parra difunde un demoledor mensaje contra la normalización de la violencia en su país, en medio de la oleada de protestas y enfrentamientos en el país latinoamericano.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-57033749</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-57033749</guid>
+            <pubDate>Sat, 08 May 2021 01:43:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus en India: a qué se debe que decenas de cadáveres aparezcan en el río Ganges]]></title>
+            <description><![CDATA[Al menos 40 cadáveres aparecieron en las orillas del Ganges durante el fin de semana.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57052844</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57052844</guid>
+            <pubDate>Tue, 11 May 2021 05:21:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La extraña desaparición (y reaparición) del exmédico ruso del líder opositor Alexei Navalny, quien estuvo perdido por 3 días]]></title>
+            <description><![CDATA[Alexander Murakhovsky fue uno de los médicos rusos que trató a Alexei Navalny cuando fue envenenado. Dos de sus colegas han muerto.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57057080</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57057080</guid>
+            <pubDate>Mon, 10 May 2021 12:38:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nikolai Fyodorov, "el Sócrates de Moscú" que impulsó el "cosmismo" y la carrera espacial soviética]]></title>
+            <description><![CDATA[Nikolai Fyodorov se ha convertido en un icono para los transhumanistas de todo el mundo y en un guía espiritual para la exploración interplanetaria.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56840099</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56840099</guid>
+            <pubDate>Sat, 08 May 2021 09:21:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[¿Cuán factible (y conveniente) puede ser la compra privada de vacunas contra el covid-19?]]></title>
+            <description><![CDATA[Varios países han abierto la puerta para el acceso privado a las vacunas. Sin embargo, existen reparos sobre la conveniencia de un modelo de negocio particular a la hora de enfrentar una emergencia de salud pública como la del coronavirus. Te contamos por qué.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56895694</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56895694</guid>
+            <pubDate>Mon, 10 May 2021 09:13:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vacuna contra la covid-19: Estados Unidos aprueba el uso de la fórmula de Pfizer en menores a partir de 12 años]]></title>
+            <description><![CDATA[La autoridad reguladora de medicamentos informó que sus estudios sugieren que la vacuna Pfizer para la covid-19 es segura y efectiva para los adolescentes.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57066302</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57066302</guid>
+            <pubDate>Mon, 10 May 2021 22:26:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[El extraordinario día en que se secaron las enormes cataratas Victoria]]></title>
+            <description><![CDATA[Las cataratas Victoria son una de las maravillas naturales del mundo, pero en 2019 se vieron silenciadas.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56962114</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56962114</guid>
+            <pubDate>Sun, 09 May 2021 15:48:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La disputa por hacerse con el trono zulú, una de las monarquías más importantes de África]]></title>
+            <description><![CDATA[La inesperada muerte de la reina ha provocado rumores de que fue envenenada y una agria batalla por la sucesión al trono en la nación zulú]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57032477</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57032477</guid>
+            <pubDate>Sat, 08 May 2021 09:04:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cahokia, la megaciudad perdida de Estados Unidos fundada para "fiestas salvajes"]]></title>
+            <description><![CDATA[En el antiguo asentamiento de Cahokia, los eventos sociales masivos, no el comercio o la economía, fueron el principio fundacional.]]></description>
+            <link>http://www.bbc.com/mundo/vert-tra-56740549</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/vert-tra-56740549</guid>
+            <pubDate>Sat, 08 May 2021 12:09:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cómo esta era del "dinero barato" aumenta el peligro de burbujas financieras en distintas partes del mundo]]></title>
+            <description><![CDATA[Cuando una burbuja estalla puede desequilibrar por completo al sistema financiero y afectar gravemente la economía global. ¿Estamos realmente en un escenario peligroso?]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56853147</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56853147</guid>
+            <pubDate>Mon, 10 May 2021 16:54:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Colonial: por qué es de vital importancia para EE.UU. el oleoducto que fue objeto de un ciberataque a gran escala]]></title>
+            <description><![CDATA[Un ciberataque contra la empresa propietaria de la red de oleoductos más grande del país amenaza el suministro de combustible de la costa Este del país. BBC Mundo te cuenta sus implicaciones.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-57065393</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-57065393</guid>
+            <pubDate>Mon, 10 May 2021 20:25:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Accidente en la línea 12: las imágenes del desplome de un tramo del metro de Ciudad de México que dejó una tragedia]]></title>
+            <description><![CDATA[Las autoridades mexicanas desplegaron grúas y camiones para retirar los vagones del metro colapsados el lunes por la noche en Ciudad de México en un accidente que dejó decenas de muertos y heridos.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56986481</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56986481</guid>
+            <pubDate>Tue, 04 May 2021 20:29:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Las imágenes que dejan los violentos enfrentamientos entre manifestantes y la policía en Colombia ]]></title>
+            <description><![CDATA[Las movilizaciones y los violentos enfrentamientos con las autoridades se extienden por todo el país.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-america-latina-56910572</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-america-latina-56910572</guid>
+            <pubDate>Thu, 06 May 2021 07:26:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[La imagen "excepcional" de una comida familiar en China que ganó un concurso internacional de fotografía gastronómica]]></title>
+            <description><![CDATA[Con su foto de una familia preparando la comida en un hogar de China, Li Huaifeng se convirtió en el Fotógrafo de Comida Pink Lady del Año 2021.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56932333</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56932333</guid>
+            <pubDate>Thu, 29 Apr 2021 14:53:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[En imágenes: así se vivieron las protestas y marchas en el mundo por el Día de los Trabajadores a pesar del coronavirus]]></title>
+            <description><![CDATA[Por segundo año consecutivo, el coronavirus hizo diferente las protestas y marchas por el Día Internacional de los Trabajadores, en el contexto de una pandemia que ha destruido los medios de vida y trastornado las economías de todo el mundo.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-56953795</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-56953795</guid>
+            <pubDate>Sun, 02 May 2021 01:08:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus en India: las imágenes que muestran la desgarradora crisis del país]]></title>
+            <description><![CDATA[El aumento de casos de covid-19 en India está llevando a los servicios de salud hasta el límite. Ni los hospitales ni los crematorios del país dan abasto.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56887728</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56887728</guid>
+            <pubDate>Mon, 26 Apr 2021 12:19:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chernobyl: las históricas fotografías de los primeros días después del accidente nuclear]]></title>
+            <description><![CDATA[El fotoperiodista ucraniano Igor Kostin fue uno de los primeros en tomar imágenes del reactor nuclear en Chernóbil, destruido en abril de 1986.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-internacional-56889123</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-internacional-56889123</guid>
+            <pubDate>Mon, 26 Apr 2021 15:49:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[World Press Photo 2021: la conmovedora historia detrás de la imagen ganadora]]></title>
+            <description><![CDATA[La fotografía de una anciana en Brasil abrazando a una enfermera en medio de la pandemia de coronavirus ganó el prestigioso certamen.]]></description>
+            <link>http://www.bbc.com/mundo/noticias-56773454</link>
+            <guid isPermaLink="true">http://www.bbc.com/mundo/noticias-56773454</guid>
+            <pubDate>Fri, 16 Apr 2021 17:01:26 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

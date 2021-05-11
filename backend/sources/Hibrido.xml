@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tickerfeed SYSTEM "ticker_feed.dtd">
+<tickerfeed version="2.4">
+  <playlist type="scrolling_carousel" name="Noticias" target="carousel" >
+     
+     <!-- ******************************************************************************************************** -->
+
+      <!-- CADA ETIQUETA <element> ES UNA NOTICIA O ENCABEZADO DE NOTICIAS-->
+
+<!--   
+    Ordenar las etiquetas <element> de la siguiente manera:
+
+
+    Cada etiqueta <element> de Encabezado contiene:
+    -) 1 etiqueta <template>  
+              ******Ejemplo Encabezado**********
+        <element>
+            <template>EncabezadoTiempo</template>
+        </element>
+
+
+    Cada etiqueta <element> de Noticia contiene:
+    -) 1 etiqueta <template> 
+    
+    *******Ejemplo Resultados**********  
+    
+        <element>
+            <template>ResultadosDeportes</template>
+            <field name="01Torneo">NOMBRE_TORNEO</field>
+            <field name="02Logo1">NOMBRE_DE_ARCHIVO_DE_IMAGEN_1</field>
+            <field name="03Equipo1">NOMBRE_EQUIPO_1</field>
+            <field name="04Marcador1">MARCADOR_EQUIPO_1</field>
+            <field name="05Logo2">NOMBRE_DE_ARCHIVO_DE_IMAGEN_2</field>
+            <field name="06Equipo2">NOMBRE_EQUIPO_2</field>
+            <field name="07Marcador2">MARCADOR_EQUIPO_2</field>
+        </element>
+-->
+
+
+    <element>
+        <!-- Template Separador  -->
+         <template>EncabezadoTiempo</template>
+    </element>
+    
+          <!-- Clima  a publicar Template + elemento  -->
+    <element>
+        <template>Tiempo</template>
+        <field name="01Provincia">Almirante</field>
+        <field name="02Icono">1</field>
+        <field name="03Minima">32</field>
+        <field name="04Maxima">16</field>
+        <field name="05Humedad">10</field>
+    </element>
+
+          <!-- Clima  a publicar Template + elemento  -->  
+    <element>
+        <template>Tiempo</template>
+        <field name="01Provincia">Changinolas</field>
+        <field name="02Icono">1</field>
+        <field name="03Minima">32</field>
+        <field name="04Maxima">16</field>
+        <field name="05Humedad">10</field>
+    </element>
+        
+          <!-- Clima  a publicar Template + elemento  -->
+    <element>
+        <template>Tiempo</template>
+        <field name="01Provincia">Panamá</field>
+        <field name="02Icono">1</field>
+        <field name="03Minima">32</field>
+        <field name="04Maxima">16</field>
+        <field name="05Humedad">10</field>
+    </element>
+
+        <!-- ******************************************************************************************************** -->
+
+    <element>
+        <!-- Template Separador  -->
+        <template>EncabezadoNacionales</template>
+    </element>
+        
+         <!-- Noticia  a publicar Template + elemento  -->
+    <element>
+        <template>Nacionales</template>
+        <field name="01Noticia">Fuerzas especiales de América y el Caribe celebran sus olimpiadas en Panamá</field>
+    </element>
+
+       <!-- Noticia  a publicar Template + elemento  -->
+    <element>
+        <template>Nacionales</template>
+        <field name="01Noticia">Arzobispo de Panamá presidirá jornada de oración por Nicaragua</field>
+    </element>
+
+       <!-- ******************************************************************************************************** -->
+   
+     <element>
+         <!-- Template Separador  -->
+         <template>EncabezadoInternacionales</template>
+    </element>
+
+          <!-- Noticia  a publicar Template + elemento  -->
+    <element> 
+        <template>Internacionales</template>      
+        <field name="01Noticia">Copa Airlines inicia vuelos directos entre Panamá y Salvador de Bahía, Brasil</field>
+    </element>
+
+          <!-- Noticia  a publicar Template + elemento  -->
+    <element>
+        <template>Internacionales</template>  
+        <field name="01Noticia">Brasil convoca a embajadora de Nicaragua por muerte de estudiante</field>
+    </element>
+
+          <!-- ******************************************************************************************************** -->
+
+    <element>
+         <!-- Template Separador  -->
+         <template>EncabezadoEconomia</template>
+    </element>
+
+          <!-- Noticia  a publicar Template + elemento  -->
+    <element>
+          <template>Economia</template>        
+          <field name="01Noticia">Trump advierte a presidente electo mexicano que se acelere negociacion de TLCAN</field>
+    </element>
+
+          <!-- Noticia  a publicar Template + elemento  -->
+    <element>
+          <template>Economia</template> 
+          <field name="01Noticia">Declaran alerta por sequía que afecta a 12 departamentos de El Salvador</field>
+    </element>
+   
+            <!-- ******************************************************************************************************** -->
+
+    <element>
+         <!-- Template Separador  -->
+         <template>EncabezadoDeportes</template>
+    </element>
+
+          <!-- Noticia  a publicar Template + elemento  -->
+      <element>
+          <template>Deportes</template>
+          <field name="01Noticia">Blas Pérez y Felipe Baloy rechazan ser consultores deportivos en Pandeportes</field>
+      </element>
+
+           <!-- Noticia  a publicar Template + elemento  -->
+      <element>
+          <template>Deportes</template>
+          <field name="01Noticia">Corredores en el Tour son rociados con gas lacrimógeno</field>
+      </element>
+
+            <!-- ******************************************************************************************************** -->
+
+      <element>
+          <!-- Template Separador  -->
+          <template>EncabezadoEntretenimiento</template>
+      </element>
+           
+           <!-- Noticia  a publicar Template + elemento  -->
+      <element>
+          <template>Entretenimiento</template>
+          <field name="01Noticia">Piden cancelar lanzamiento de serie de Netflix acusada de burlarse de los obesos</field>
+      </element>
+
+           <!-- Noticia  a publicar Template + elemento  -->
+      <element>
+          <template>Entretenimiento</template>
+          <field name="01Noticia">Desfile de las Mil Polleras se realizará el 12 de enero de 2019</field>
+      </element>
+
+      <element>
+          <template>Entretenimiento</template>
+          <field name="01Noticia">Tercera noticia de entretenimiento</field>
+      </element>
+            <!-- ******************************************************************************************************** -->
+
+      <element>
+          <!-- Template Separador  -->
+          <template>EncabezadoCombustibles</template>
+      </element>
+           
+           <!-- Solo existe una variacion y despues los precios  -->
+
+
+     <element>
+        <template>VariacionCombustible</template>
+        <field name="01VarGasolina91">0.112</field>
+        <field name="02VarSimbolo91">0</field> 
+        <field name="03VarGasolina95">0.147</field>
+        <field name="04VarSimbolo95">1</field>
+        <field name="05VarDiesel">0.697</field>
+        <field name="06VarSimboloDiesel">0.697</field>
+      </element>
+
+      <element>
+        <template>PrecioCombustible</template>
+        <field name="01Region">Otro depa</field>
+        <field name="02Gasolina91">0.444</field>
+        <field name="03Gasolina95">0.222</field>
+        <field name="04Diesel">0.684</field>
+      </element>
+
+
+      <element>
+        <template>PrecioCombustible</template>
+        <field name="01Region">Panama</field>
+        <field name="02Gasolina91">0.456</field>
+        <field name="03Gasolina95">0.789</field>
+        <field name="04Diesel">0.147</field>
+      </element>
+
+            <!-- ******************************************************************************************************** -->
+ 
+    </playlist>
+</tickerfeed>

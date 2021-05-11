@@ -12,9 +12,15 @@ const hidromet = axios.create( {
     headers :  { 'Content-Type': 'application/json' }
 } );
 
+const xml = axios.create( {
+    baseURL : `http://${ api }:4000/xml`,
+    headers :  { 'Content-Type': 'application/json' }
+} );
+
 const connection = {
     unreal, 
-    hidromet
+    hidromet,
+    xml
 }
 
 export default connection 

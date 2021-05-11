@@ -49,7 +49,6 @@ const Embalse = ({ embalse }) => {
     console.log ( 'button' )
   }
   const enviarEmbalse = () => {
-    console.log('enviar ', embalse)
     embalseUnreal( embalse )
   }
 

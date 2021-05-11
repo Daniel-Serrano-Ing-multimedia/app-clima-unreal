@@ -2,7 +2,7 @@ import React from 'react';
 // styles
 import { makeStyles } from '@material-ui/core/styles';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
-import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined } from '@material-ui/icons';
+import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined, FiberNew} from '@material-ui/icons';
 // funciones hidomet
 import { obtenerEmbalses } from '../../surces/hidromet';
 
@@ -42,8 +42,8 @@ const Header = ({ setSeccion, setData }) => {
       />
       <BottomNavigationAction 
         label="Nearby" 
-        icon={<AccessAlarm />} 
-        onClick = {() => enviasSeccion('condiciones') }
+        icon={<FiberNew />} 
+        onClick = {() => enviasSeccion('news') }
       />
     </BottomNavigation>
   );

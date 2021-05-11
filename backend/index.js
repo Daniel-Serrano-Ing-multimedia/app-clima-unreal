@@ -21,6 +21,7 @@ app.use((req, res, next) => {
 //....
 // Router Basic
 app.use( `/hidromet`, require('./routes/hidromet') );
+app.use( `/xml`, require('./routes/xml') );
 
 //...
 

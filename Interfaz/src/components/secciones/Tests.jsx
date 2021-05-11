@@ -38,7 +38,7 @@ const Tests = ({ setSeccionActual, setData }) => {
 
     </Grid>
     <Grid item xs={4}>
-    <ButtonReact 
+      <ButtonReact 
         unrealFunc = { () => visible }
         textButton = { 'Hacer Visible' }
       />

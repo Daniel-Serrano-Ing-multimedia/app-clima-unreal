@@ -8,6 +8,7 @@ import Pronostico from './secciones/Pronostico';
 import Embalses from './secciones/Embalses';
 import TablaMareas from './secciones/TablaMareas';
 import Condiciones from './secciones/Condiciones';
+import News from './secciones/News';
 
 const Seccion = ({ seccionActual, setSeccionActual, setData, data }) => {
 
@@ -28,6 +29,8 @@ const Seccion = ({ seccionActual, setSeccionActual, setData, data }) => {
         return <TablaMareas/> ;
       case  'condiciones': 
         return <Condiciones/> ;
+      case  'news': 
+        return <News/> ;
       default:
         return null;
     }

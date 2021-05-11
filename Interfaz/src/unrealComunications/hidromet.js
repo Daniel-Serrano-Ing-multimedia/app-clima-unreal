@@ -52,12 +52,12 @@ const embalseUnreal = async dataEmbalse =>{
       "objectPath" : "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.Text3D_2",
       "functionName":"EnviarTexto",
       "Parameters":{
-        "name": dataEmbalse.descripEmbalse,
-        "max": dataEmbalse.nivelMaximoEmbalse,
-        "current": dataEmbalse.nivelActualEmbalse,
-        "min": dataEmbalse.nivelMinimoEmbalse,
-        "date": dataEmbalse.fechaUltimaLecturaEmbalse,
-        "hour": dataEmbalse.horaUltimaLecturaEmbalse,
+        "name"    : descripEmbalse,
+        "max"     : nivelMaximoEmbalse,
+        "current" : nivelActualEmbalse,
+        "min"     : nivelMinimoEmbalse,
+        "date"    : fechaUltimaLecturaEmbalse,
+        "hour"    : horaUltimaLecturaEmbalse,
       },
       "generateTransaction":true
     }
