@@ -33,7 +33,7 @@ const Header = ({ setSeccion, setData }) => {
       <BottomNavigationAction 
         label="Nearby" 
         icon={<AccessAlarm />} 
-        onClick = {() => enviasSeccion('embalses') }
+        onClick = {() => embalsesFunc ()}
       />
       <BottomNavigationAction 
         label="Nearby" 

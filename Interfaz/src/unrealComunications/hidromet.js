@@ -38,6 +38,36 @@ const pronostico = async region =>{
   }
 }
 
+const embalseUnreal = async dataEmbalse =>{
+  const { 
+    descripEmbalse,
+    fechaUltimaLecturaEmbalse,
+    horaUltimaLecturaEmbalse,
+    nivelActualEmbalse,
+    nivelMaximoEmbalse,
+    nivelMinimoEmbalse
+   } = dataEmbalse ;
+  try {
+    const  data = {
+      "objectPath" : "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.Text3D_2",
+      "functionName":"EnviarTexto",
+      "Parameters":{
+        "name": dataEmbalse.descripEmbalse,
+        "max": dataEmbalse.nivelMaximoEmbalse,
+        "current": dataEmbalse.nivelActualEmbalse,
+        "min": dataEmbalse.nivelMinimoEmbalse,
+        "date": dataEmbalse.fechaUltimaLecturaEmbalse,
+        "hour": dataEmbalse.horaUltimaLecturaEmbalse,
+      },
+      "generateTransaction":true
+    }
+    //enviarPeticion( '/call', data );
+    console.log(' Enviando a unreal : ', data)
+  } catch (error) {
+    console.log(' error : ', error.response);     
+  }
+}
+
 const defaultText = async text =>{
   try {
     const  data = {
@@ -57,5 +87,6 @@ const defaultText = async text =>{
 
 export {
   pronostico,
+  embalseUnreal,
   defaultText,
 }

@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Grid, Card, CardContent  } from '@material-ui/core'; 
 // components 
 import ButtonReact from '../ButtonReact';
-
+// funciones hidomet
+import { embalseUnreal } from '../../unrealComunications/hidromet';
 
 const Embalses = ({ embalses }) => {
  
@@ -33,6 +34,7 @@ const Embalses = ({ embalses }) => {
   );
 }
  
+// CArds de cada embalse
 
 const Embalse = ({ embalse }) => {
   const { 
@@ -46,6 +48,11 @@ const Embalse = ({ embalse }) => {
   const imprimir = () => {
     console.log ( 'button' )
   }
+  const enviarEmbalse = () => {
+    console.log('enviar ', embalse)
+    embalseUnreal( embalse )
+  }
+
   return(
     <Grid item xs = {2} md ={ 3} >
       <Card>
@@ -56,7 +63,7 @@ const Embalse = ({ embalse }) => {
           <p>Mnimo : { nivelMinimoEmbalse }</p>
       </CardContent>
        <ButtonReact
-              unrealFunc = { imprimir }
+              unrealFunc = { () => enviarEmbalse }
               textButton = { `Enviar info Embalse` }
           />
       </Card>

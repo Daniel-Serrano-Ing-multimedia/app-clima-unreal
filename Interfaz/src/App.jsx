@@ -21,6 +21,7 @@ function App() {
     <div className="App">
       <Header
         setSeccion = { setSeccionActual }
+        setData = { setData }
       />
         <img src={unreal} className="App-logo" alt="logo" />
         <p>
