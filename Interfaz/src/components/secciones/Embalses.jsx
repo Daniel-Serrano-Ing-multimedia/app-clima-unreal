@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 // ui
 import { Grid, Card, CardContent  } from '@material-ui/core'; 
 // components 

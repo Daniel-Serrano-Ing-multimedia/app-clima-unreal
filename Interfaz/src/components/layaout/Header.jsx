@@ -5,12 +5,19 @@ import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
 import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined, FiberNew} from '@material-ui/icons';
 // funciones hidomet
 import { obtenerEmbalses } from '../../surces/hidromet';
+import { news } from '../../surces/rss';
 
 const Header = ({ setSeccion, setData }) => {
   
   async function embalsesFunc() {
     setData( await obtenerEmbalses()  );
     enviasSeccion( 'embalses' )
+  }
+
+  async function newsFunc() {
+    setData( await news()  );
+    console.log(' enviando news ')
+    enviasSeccion( 'news' )
   }
   
   const enviasSeccion= seccion => {
@@ -43,7 +50,7 @@ const Header = ({ setSeccion, setData }) => {
       <BottomNavigationAction 
         label="Nearby" 
         icon={<FiberNew />} 
-        onClick = {() => enviasSeccion('news') }
+        onClick = {() => newsFunc()}
       />
     </BottomNavigation>
   );

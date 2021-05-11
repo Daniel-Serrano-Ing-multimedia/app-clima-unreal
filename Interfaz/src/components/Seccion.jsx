@@ -30,7 +30,9 @@ const Seccion = ({ seccionActual, setSeccionActual, setData, data }) => {
       case  'condiciones': 
         return <Condiciones/> ;
       case  'news': 
-        return <News/> ;
+        return <News
+          listNews = { data }
+        /> ;
       default:
         return null;
     }
