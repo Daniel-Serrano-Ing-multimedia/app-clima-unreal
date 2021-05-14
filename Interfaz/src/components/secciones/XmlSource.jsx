@@ -5,7 +5,7 @@ import { Grid, Card, CardContent  } from '@material-ui/core';
 import ButtonReact from '../ButtonReact';
 
 
-const  News = ({ listNews }) => {
+const  XmlSource = ({ listNews }) => {
 useEffect(() => {
   console.log( 'list ', listNews )
 }, [ listNews ])
@@ -31,12 +31,11 @@ useEffect(() => {
   );
 }
  
-export default  News;
+export default  XmlSource;
 
 
 const New = ({ noticia }) =>{
   const { 
-    link,
     title,
     description,
     pubDate
@@ -51,7 +50,7 @@ const New = ({ noticia }) =>{
       <Card>
         <CardContent >
           <h5>{ title }</h5>
-          <a>{ link }</a>
+          <p>{ description }</p>
           <p>{ pubDate }</p>
       </CardContent>
        

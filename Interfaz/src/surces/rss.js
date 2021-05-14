@@ -5,6 +5,17 @@ import { xml } from '../config';
 
 const news = async () => {
   try {
+    const result = await connection.xml.get(`/bbc-online`);
+    //console.log('result ', result.data.news);
+    return result.data.feed;
+  } catch (error) {
+    console.log("Error", error);
+    return error
+  }
+}
+
+const xmlSource = async () => {
+  try {
     const result = await connection.xml.get(`/bbc`);
     //console.log('result ', result.data.news);
     return result.data.news;
@@ -13,7 +24,7 @@ const news = async () => {
     return error
   }
 }
-
 export {
-  news
+  news, 
+  xmlSource
 }

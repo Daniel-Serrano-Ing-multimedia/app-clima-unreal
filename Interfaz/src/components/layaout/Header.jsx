@@ -2,16 +2,22 @@ import React from 'react';
 // styles
 import { makeStyles } from '@material-ui/core/styles';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
-import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined, FiberNew} from '@material-ui/icons';
+import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined, FiberNewOutlined,FiberNew} from '@material-ui/icons';
 // funciones hidomet
 import { obtenerEmbalses } from '../../surces/hidromet';
-import { news } from '../../surces/rss';
+import { news, xmlSource } from '../../surces/rss';
 
 const Header = ({ setSeccion, setData }) => {
   
   async function embalsesFunc() {
     setData( await obtenerEmbalses()  );
     enviasSeccion( 'embalses' )
+  }
+
+  async function xmlFunc() {
+    setData( await xmlSource()  );
+    console.log(' desde xml ')
+    enviasSeccion( 'xml' )
   }
 
   async function newsFunc() {
@@ -46,6 +52,11 @@ const Header = ({ setSeccion, setData }) => {
         label="Nearby" 
         icon={<AccessAlarm />} 
         onClick = {() => enviasSeccion('mareas') }
+      />
+      <BottomNavigationAction 
+        label="Nearby" 
+        icon={<FiberNewOutlined />} 
+        onClick = {() => xmlFunc()}
       />
       <BottomNavigationAction 
         label="Nearby" 
