@@ -4,6 +4,7 @@ const api = express.Router();
 const xml = require('../controllers/xmlController');
 
 api.get( '/bbc', xml.bbcNews );
+api.get( '/bbc-online', xml.bbcNewsOnline );
 api.get( '/hibrido', xml.hibrido );
 
 

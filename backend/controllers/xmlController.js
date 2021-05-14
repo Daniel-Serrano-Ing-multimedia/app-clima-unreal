@@ -1,21 +1,13 @@
-const express = require('express');
+var RSS = require('rss');
+let rssParser = require('rss-parser');
 var fs = require('fs');
 var xml2js = require('xml2js');
 
 var sourceDir =  `${ process.cwd() }/sources/`;
 
-let miPrimeraPromise = new Promise((resolve, reject) => {
-  // Llamamos a resolve(...) cuando lo que estabamos haciendo finaliza con éxito, y reject(...) cuando falla.
-  // En este ejemplo, usamos setTimeout(...) para simular código asíncrono.
-  // En la vida real, probablemente uses algo como XHR o una API HTML5.
-  setTimeout(function(){
-    resolve("¡Éxito!"); // ¡Todo salió bien!
-  }, 250);
-});
-
 const transformXML =  fileName => {
    return new Promise((resolve, reject) => {
-    var parser = new xml2js.Parser();
+    let parser = new xml2js.Parser();
     fs.readFile( `${ sourceDir}/${ fileName }.xml` , (err, data) => {
         if (err) { reject ( err ) }
         parser.parseString( data, (err, result) => {
@@ -23,6 +15,16 @@ const transformXML =  fileName => {
           resolve( result );
         });
     });
+  });
+  
+}
+const transformXMLOnline =  data => {
+   return new Promise((resolve, reject) => {
+    let parser = new xml2js.Parser();
+      parser.parseString( data, (err, result) => {
+          if (err) { reject ( err ) }
+          resolve( result );
+      });
   });
   
 }
@@ -47,7 +49,22 @@ exports.bbcNews = async ( req, res, next ) => {
   } catch (error) {
     
   }
-  console.log( newsData )
+
+}
+
+exports.bbcNewsOnline = async ( req, res, next ) => {
+  const today = new Date() - (24*60*60*1000);
+  let parser = new rssParser();
+  try {
+    let feed = await parser.parseURL('https://feeds.bbci.co.uk/mundo/rss.xml');
+
+    const data = feed.items.filter(item =>  Date.parse( item.pubDate ) >  today )
+
+    res.status(200).send({ feed: data })
+  } catch (error) {
+    res.status(500).send({ error })
+    
+  }
 }
 
 exports.hibrido = ( req, res, next ) => {
