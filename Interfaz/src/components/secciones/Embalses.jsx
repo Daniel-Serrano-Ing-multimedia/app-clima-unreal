@@ -53,7 +53,7 @@ const Embalse = ({ embalse }) => {
   }
 
   return(
-    <Grid item xs = {2} md ={ 3} >
+    <Grid item xs = {6} md ={ 3} >
       <Card>
         <CardContent >
           <h3>{ descripEmbalse }</h3>

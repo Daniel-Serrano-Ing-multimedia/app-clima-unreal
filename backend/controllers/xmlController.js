@@ -1,4 +1,4 @@
-var RSS = require('rss');
+
 let rssParser = require('rss-parser');
 var fs = require('fs');
 var xml2js = require('xml2js');

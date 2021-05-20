@@ -1,7 +1,5 @@
 "use strict";
 
-var RSS = require('rss');
-
 var rssParser = require('rss-parser');
 
 var fs = require('fs');
