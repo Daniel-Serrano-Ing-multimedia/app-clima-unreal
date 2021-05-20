@@ -49,19 +49,18 @@ const embalseUnreal = async dataEmbalse =>{
    } = dataEmbalse ;
   try {
     const  data = {
-      "objectPath" : "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.Text3D_2",
-      "functionName":"EnviarTexto",
+      "objectPath" : "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.Embalses",
+      
+      "functionName":"ObtenerEmbalse",
       "Parameters":{
-        "name"    : descripEmbalse,
+        "embalse"    : descripEmbalse,
         "max"     : nivelMaximoEmbalse,
         "current" : nivelActualEmbalse,
         "min"     : nivelMinimoEmbalse,
-        "date"    : fechaUltimaLecturaEmbalse,
-        "hour"    : horaUltimaLecturaEmbalse,
       },
       "generateTransaction":true
     }
-    //enviarPeticion( '/call', data );
+    enviarPeticion( '/call', data );
     console.log(' Enviando a unreal : ', data)
   } catch (error) {
     console.log(' error : ', error.response);     

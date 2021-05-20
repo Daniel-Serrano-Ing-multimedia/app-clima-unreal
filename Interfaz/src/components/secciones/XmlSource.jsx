@@ -17,7 +17,7 @@ useEffect(() => {
     justify = 'center'
   >
     <Grid item xs = { 8 } >
-      <h1>News</h1>
+      <h1>Xml Local</h1>
     </Grid>
     <Grid container item justify = 'center' xs = { 12 } spacing={4}>
     { listNews?.map( (noticia , id) => 

@@ -17,12 +17,12 @@ useEffect(() => {
     justify = 'center'
   >
     <Grid item xs = { 8 } >
-      <h1>News</h1>
+      <h1>BBC News rss</h1>
     </Grid>
     <Grid container item justify = 'center' xs = { 12 } spacing={4}>
     { listNews?.map( (noticia , id) => 
             <New
-              key = { id }
+              key = { `id_${ id } `}
               noticia = { noticia }
             />
           ) }
@@ -47,7 +47,7 @@ const New = ({ noticia }) =>{
 
 
   return(
-    <Grid item xs = {2} md ={ 3} >
+    <Grid item xs = {6} md ={ 3} >
       <Card>
         <CardContent >
           <h5>{ title }</h5>
