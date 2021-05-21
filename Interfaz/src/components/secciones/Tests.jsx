@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Grid, { GridSpacing } from '@material-ui/core/Grid'; 
 import ButtonReact from '../ButtonReact';
 // Funciones para Unreal
-import  { tomarMartillo, visible } from '../../unrealComunications/martillo';
+import  { tomarMartillo, tomarMartilloEvento ,visible } from '../../unrealComunications/martillo';
 import { pronostico, defaultText } from '../../unrealComunications/hidromet';
 // funciones hidomet
 import { obtenerEmbalses } from '../../surces/hidromet';
@@ -33,7 +33,14 @@ const Tests = ({ setSeccionActual, setData }) => {
     <Grid item xs={4}>
     <ButtonReact 
         unrealFunc = { () => tomarMartillo }
-        textButton = { 'Tomar Martillo' }
+        textButton = { 'Tomar Martillo (Funcion)' }
+      />
+
+    </Grid>
+    <Grid item xs={4}>
+    <ButtonReact 
+        unrealFunc = { () => tomarMartilloEvento }
+        textButton = { 'Tomar Martillo (Evento)' }
       />
 
     </Grid>

@@ -13,16 +13,25 @@ const enviarPeticion = async (tipoPeticion, data) =>{
   }
 }
 
-const tomarMartillo = async () => {
+const tomarMartilloEvento = async () => {
   // objeto con la peticion http
   const  data = {
     "objectPath" : objectPathMArtilloInGame,
-    "functionName":"Martillo",
+    "functionName":"MartilloEvento",
     "generateTransaction":true
   }
   enviarPeticion( '/call', data );
 }
 
+const tomarMartillo = async () => {
+  // objeto con la peticion http
+  const  data = {
+    "objectPath" : objectPathMArtilloInGame,
+    "functionName":"TomarMartillo",
+    "generateTransaction":true
+  }
+  enviarPeticion( '/call', data );
+}
 
 const visible = async () => {
   // objeto con la peticion http
@@ -67,6 +76,7 @@ const ActivarEvento = async () => {
 
 export {
   tomarMartillo, 
+  tomarMartilloEvento,
   visible,
   ActivarEvento,
   Saludo,
