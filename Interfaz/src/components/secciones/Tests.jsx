@@ -30,48 +30,42 @@ const Tests = ({ setSeccionActual, setData }) => {
   
   return ( 
   <Grid container item >
-    <Grid item xs={4}>
+    <Grid item xs={ 6 } md = { 4 }>
     <ButtonReact 
         unrealFunc = { () => tomarMartillo }
-        textButton = { 'Tomar Martillo (Funcion)' }
+        textButton = { 'Martillo (Funcion)' }
       />
 
     </Grid>
-    <Grid item xs={4}>
+    <Grid item xs={ 6 } md = { 4 }>
     <ButtonReact 
         unrealFunc = { () => tomarMartilloEvento }
-        textButton = { 'Tomar Martillo (Evento)' }
+        textButton = { 'Martillo (Evento)' }
       />
 
     </Grid>
-    <Grid item xs={4}>
+    <Grid item xs={ 6 } md = { 4 }>
       <ButtonReact 
         unrealFunc = { () => visible }
         textButton = { 'Hacer Visible' }
       />
     </Grid>
-    <Grid item xs={4}>
+    <Grid item xs={ 6 } md = { 4 }>
       <ButtonReact 
         unrealFunc = { () => pronisticoPanama}
         textButton = { 'pronostico Panama' } 
       />
     </Grid>
-    <Grid item xs={4}>
+    <Grid item xs={ 6 } md = { 4 }>
       <ButtonReact 
         unrealFunc = { () => pronisticoBocas}
-        textButton = { 'pronostico Bocas del Toto' }
+        textButton = { 'pronostico Bocas' }
       />
     </Grid>
-    <Grid item xs = {4}>
+    <Grid item xs = { 6 } md = { 4 }>
       <ButtonReact 
         unrealFunc = { () => textoGenerico }
         textButton = { 'Default Text' }
-      />
-    </Grid>
-    <Grid item xs = {4}>
-      <ButtonReact 
-        unrealFunc = { () => embalsesFunc }
-        textButton = { 'Obtener Embalses' }
       />
     </Grid>
   </Grid>

@@ -2,7 +2,14 @@ import React from 'react';
 // styles
 import { makeStyles } from '@material-ui/core/styles';
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core';
-import { AccessAlarm, ThreeDRotation, CloudCircleOutlined, BookOutlined, FiberNewOutlined,FiberNew} from '@material-ui/icons';
+import { 
+  CloudCircleOutlined, 
+  BookOutlined,
+  FiberNew , 
+  RoomOutlined, 
+  WavesOutlined, 
+  FileCopyOutlined
+} from '@material-ui/icons';
 // funciones hidomet
 import { obtenerEmbalses } from '../../surces/hidromet';
 import { news, xmlSource } from '../../surces/rss';
@@ -40,22 +47,22 @@ const Header = ({ setSeccion, setData }) => {
       />
       <BottomNavigationAction 
         label="Favorites" 
-        icon={<CloudCircleOutlined />} 
+        icon={<RoomOutlined />} 
         onClick = {() => enviasSeccion('pronostico') }
       />
       <BottomNavigationAction 
         label="Nearby" 
-        icon={<AccessAlarm />} 
+        icon={<WavesOutlined />} 
         onClick = {() => embalsesFunc ()}
       />
       <BottomNavigationAction 
         label="Nearby" 
-        icon={<AccessAlarm />} 
+        icon={<CloudCircleOutlined />} 
         onClick = {() => enviasSeccion('mareas') }
       />
       <BottomNavigationAction 
         label="Nearby" 
-        icon={<FiberNewOutlined />} 
+        icon={<FileCopyOutlined />} 
         onClick = {() => xmlFunc()}
       />
       <BottomNavigationAction 
