@@ -1,4 +1,3 @@
-//const connetcion = require ('../db');
 const mysql = require('mysql');
 
 const connetcion = mysql.createConnection({

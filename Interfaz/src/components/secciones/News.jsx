@@ -53,6 +53,10 @@ const New = ({ noticia }) =>{
           <h5>{ title }</h5>
           <a>{ link }</a>
           <p>{ pubDate }</p>
+          <ButtonReact
+              unrealFunc = { () => imprimir }
+              textButton = { `Enviar info BBC` }
+          />
       </CardContent>
        
       </Card>

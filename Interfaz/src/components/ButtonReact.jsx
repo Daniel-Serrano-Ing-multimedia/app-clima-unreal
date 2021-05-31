@@ -16,6 +16,7 @@ const ButtonReact =  ({ unrealFunc, textButton}) => {
   return ( 
     <div className={classes.root}>
       <Button
+        variant  = 'outlined'
         onClick  = { unrealFunc() }
         color="primary"
       >{ textButton }</Button>

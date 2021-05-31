@@ -18,16 +18,6 @@ const transformXML =  fileName => {
   });
   
 }
-const transformXMLOnline =  data => {
-   return new Promise((resolve, reject) => {
-    let parser = new xml2js.Parser();
-      parser.parseString( data, (err, result) => {
-          if (err) { reject ( err ) }
-          resolve( result );
-      });
-  });
-  
-}
 
 exports.bbcNews = async ( req, res, next ) => {
   console.log( 'News ... ' );
