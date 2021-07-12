@@ -1,6 +1,6 @@
 import axios from 'axios';
-const engine = '192.168.0.13';
-const api = '192.168.0.13';
+const engine = '192.168.0.27';  // unreal engine ip
+const api = '192.168.0.27';     // Node Api ip
 
 const unreal = axios.create( {
     baseURL : `http://${ engine }:30010/remote/object/`,

@@ -1,15 +1,20 @@
 import React, { useEffect } from 'react';
 // ui
-import { Grid, Card, CardContent  } from '@material-ui/core'; 
+import { Grid, Card, CardContent } from '@material-ui/core'; 
 // components 
 import ButtonReact from '../ButtonReact';
-
+// funciones bbc
+import { newBBC, newsBBC, newsBBC_v2 } from '../../unrealComunications/bbc';
 
 const  News = ({ listNews }) => {
 useEffect(() => {
   console.log( 'list ', listNews )
-}, [ listNews ])
-
+}, [ listNews ]);
+  
+  const enviarNoticias = () => {
+    //newsBBC( listNews );
+    newsBBC_v2( listNews );
+  } 
   return ( 
     <Grid 
     container 
@@ -18,12 +23,17 @@ useEffect(() => {
   >
     <Grid item xs = { 8 } >
       <h1>BBC News rss</h1>
+      <ButtonReact
+        unrealFunc = { () => enviarNoticias }
+        textButton = { `Enviar Noticias` }
+      />
     </Grid>
     <Grid container item justify = 'center' xs = { 12 } spacing={4}>
     { listNews?.map( (noticia , id) => 
             <New
               key = { `id_${ id } `}
               noticia = { noticia }
+              newBBC = { newBBC }
             />
           ) }
     </Grid>
@@ -34,15 +44,14 @@ useEffect(() => {
 export default  News;
 
 
-const New = ({ noticia }) =>{
+const New = ({ noticia , newBBC}) =>{
   const { 
     link,
     title,
-    description,
     pubDate
    } = noticia ;
-  const imprimir = () => {
-    console.log ( 'button' )
+  const enviarNoticia = () => {
+    newBBC( noticia );
   }
 
 
@@ -54,7 +63,7 @@ const New = ({ noticia }) =>{
           <a>{ link }</a>
           <p>{ pubDate }</p>
           <ButtonReact
-              unrealFunc = { () => imprimir }
+              unrealFunc = { () => enviarNoticia }
               textButton = { `Enviar info BBC` }
           />
       </CardContent>

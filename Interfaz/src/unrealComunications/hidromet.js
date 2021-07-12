@@ -4,7 +4,7 @@ import { Mensaje} from './martillo';
 
 // const objectPathMArtillo = "/Game/Hunter_Game_Levels/DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
 // const objectPathMArtilloInGame = "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.FeedUpActor3_8";
-
+const inGameExtension = "UEDPIE_0_";
 
 const enviarPeticion = async (tipoPeticion, data) =>{
   try {
@@ -47,9 +47,13 @@ const embalseUnreal = async dataEmbalse =>{
     nivelMaximoEmbalse,
     nivelMinimoEmbalse
    } = dataEmbalse ;
+  const pathInGame =    `/Game/${ inGameExtension }Main.Main:PersistentLevel.Embalses_2`
+  const pathInEditor =  `/Game/Main.Main:PersistentLevel.Embalses_2`
   try {
     const  data = {
-      "objectPath" : "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.Embalses",
+      // "objectPath" : "/Game/Hunter_Game_Levels/UEDPIE_0_DEV_Testing.DEV_Testing:PersistentLevel.Embalses",
+      //"objectPath" : pathInEditor,
+      "objectPath" : pathInGame,
       
       "functionName":"ObtenerEmbalse",
       "Parameters":{
